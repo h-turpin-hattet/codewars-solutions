@@ -8,7 +8,7 @@
 
 def no_space(x):
     if x is None or len(x.strip())<1:
-        raise ValueError('Input must contain at leas one character')   
+        raise ValueError('Input must contain at least one character')   
     
     return ''.join(x.split())
 
