@@ -4,9 +4,9 @@
 # Date: 2026-10-03
 #
 # Description:
-#Write a function to convert a name into initials.
-#This kata strictly takes two words with one space in between them.
-#The output should be two capital letters with a dot separating them.
+# Write a function to convert a name into initials.
+# This kata strictly takes two words with one space in between them.
+# The output should be two capital letters with a dot separating them.
 
 def abbrev_name(name):
     if name is None or len(name.split(' '))!=2:

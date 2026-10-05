@@ -4,7 +4,7 @@
 # Date: 2026-10-05
 #
 # Description:
-#Write a function that removes the spaces from the string, then return the resultant string.
+# Write a function that removes the spaces from the string, then return the resultant string.
 
 def no_space(x):
     if x is None or len(x.strip())<1:
